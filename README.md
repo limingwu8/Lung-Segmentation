@@ -1,7 +1,7 @@
 # Lung-Segmentation
 
 ## Overview
-This is the code for lung segmentation on RSNA pneumonia detection dataset. The whole dataset can be downloaded from https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data. In order to remove the unnecessary features from the CT image and only keep the lung area, a U-Net model is implemented to segment the lung out from the CT image. I manually labeled the contour of 1000 CT images and use these images as training set to train a U-Net. The segmented images can be find at https://drive.google.com/drive/folders/1gISKPOiDuZTAXkGeQ6-TMb3190v4Xhyc?usp=sharing. 
+This is the code for lung segmentation on RSNA pneumonia detection dataset. The whole dataset can be downloaded from https://www.kaggle.com/c/rsna-pneumonia-detection-challenge. In order to remove the unnecessary features from the CT image and only keep the lung area, a U-Net model is implemented to segment the lung out from the CT image. I manually labeled the contour of 1000 CT images and use these images as training set to train a U-Net. The segmented images can be find at https://drive.google.com/drive/folders/1gISKPOiDuZTAXkGeQ6-TMb3190v4Xhyc?usp=sharing. 
 
 ## Prerequisites
 * Pytorch 3.1, Python 3.6
